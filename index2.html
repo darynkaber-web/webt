@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades and Feedback Form</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+   
+    <h1>Student Grades Table</h1>
+
+   
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Ayan Kozhan</td>
+            <td>Mathematics</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Gulnar Tolev</td>
+            <td>English</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>Murat Nurly</td>
+            <td>History</td>
+            <td>A-</td>
+        </tr>
+        <tr>
+            <td>Sandugash Abdiakhalik</td>
+            <td>Physics</td>
+            <td>B</td>
+        </tr>
+    </table>
+
+
+    <h1>Feedback Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label>Do you like our website?</label>
+        <input type="radio" id="yes" name="feedback" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="feedback" value="no">
+        <label for="no">No</label>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
